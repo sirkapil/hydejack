@@ -28,7 +28,7 @@ back:                  Back
 templates:             Templates (for web app)
 
 loading:               Loading…
-redirecting:           Redirect Notice
+redirecting:           Redirect Notice !
 
 continue_reading:      >
   Continue reading <!--post_title-->

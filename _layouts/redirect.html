@@ -24,16 +24,16 @@ layout: base
 
 <div class="page">
   <h1 class="page-title">{{ site.data.strings.redirecting | default:"Redirecting…" }}</h1>
-  <p>you are being redirected to another page. If it takes more than few seconds to redirect then press on following link.</p>
+  <p>you are being redirected to {{ page.title }} page. This process is automatic for browsers supporting javascript but If it takes more than few seconds to redirect then press on following link.</p>
   <p class="lead"><a href="{{ page.redirect_to }}">{{ page.redirect_to }}</a></p>
 </div>
 <script>
 
 setTimeout(function() {
 
-  window.location.href = "{{ page.redirect.to }}";
+  window.location.href = "{{ page.redirect_to }}";
 
-}, 3000);
+}, 000);
 
 </script>
 
