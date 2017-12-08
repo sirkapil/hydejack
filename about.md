@@ -1,7 +1,7 @@
 ---
 title: redirect
-layout: redirect
-redirect_to: https://about.sirkapil.me/
+redirect_to:
+       - https://about.sirkapil.me/
 menu: true
 order: 4
 ---
