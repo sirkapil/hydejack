@@ -3,20 +3,27 @@ layout: post
 title: Tech Behind Contact Form
 ---
 
-Today , i'm going to tell you how i created this lovely <a href="https://contact.sirkapil.me" target="_blank">contact form</a>.
-You can easily check it's source code through any online source code checker or by pressing CTRL+U (pc users). However, i mostly use w3 to inspect the source code.<br />
+## Table of Contents
+{:.no_toc}
+0. this unordered seed list will be replaced by toc as unordered list
+{:toc}
+
+## Introduction
+
+Today , i'm going to tell you how i created this lovely [contact form](/contact). You can easily check it's source code through any online source code checker or by pressing CTRL+U (pc users). However, i mostly use w3 to inspect the source code.
+
 Online source code is here: 
-<ol>
-<li> <a href="https://validator.w3.org/nu/?showsource=yes&showimagereport=yes&doc=https%3A%2F%2Fcontact.sirkapil.me%2F" target="_blank">w3.org</a></li>
-<li> <a href="https://raw.githubusercontent.com/sirkapil/contact/gh-pages/index.html" target="_blank">Raw github</a></li>
-</ol>
-<br />
-<p>Can't find the form code ? No worries , here it is :</p>
-<section>
-<h2> Form Code </h2>
-</section>
-<pre class="code">
-<code>
+
+1.[w3.org](https://validator.w3.org/nu/?showsource=yes&showimagereport=yes&doc=https%3A%2F%2Fcontact.sirkapil.me%2F)
+
+2.[Raw Github](https://raw.githubusercontent.com/sirkapil/contact/gh-pages/index.html)
+
+Can't find the form code ? No worries , here it is :
+
+## Form Code 
+
+~~~html
+
    &lt;form id="contactform" action="#" name="contactform" netlify>
 &lt;section class="bg-red">
   &lt;h2>Dear Kapil,&lt;/h2>
@@ -46,69 +53,65 @@ Online source code is here:
       &lt;small>&lt;span style="color:#15B6B1">Launch&lt;/span>&lt;/small>
     &lt;/button>
    &lt;/form>
-</code>
-</pre>
-<section>
-<h2>This Form Uses :</h2>
-<ul>
-<li><a href="#githubrepo"> Github Repository</a> </li>
-<li><a href="#netlify"> Netlify </a></li>
-<li><a href="#mrhyde"> MrHyde </a></li>
-<li><a href="#erlen"> Erlen's Codepen </a></li>
-<li><a href="#tuftecss"> Tufte CSS </a></li>
-<li><a href="#customcss"> Custom CSS </a></li>
-</ul>
-</section>
-<section>
-<h3><a name="githubrepo"> Github Repository </a></h3>
-<p>I'm using Github Repository for source code of this contact form.<br /><a href="https://github.com/sirkapil/contact">github.com/sirkapil/contact</a><br />
-This is link to Github Repository , you can clone it or fork it ! Any suitable changes through pull requests are welcome.</p>
-</section>
-<section>
-<h3> <a name="netlify">Netlify</a> </h3>
-<p> I'm using netlify to host my form , it deploy instanly any commit made to github repository. the data you submit in contact form is saved to my netlify account and they inform me about any form submission through mail along with a copy of your message.
-</p>
-<div>
-<blockquote>
-As Github Pages serves static sites and has limited features so you don't have inbuilt contact form option there. Therefore, you have to rely on third party for contact form submission , but most of them sell/exchange private information of users submitted through contact form , even  google form uses private information for advertising. that's why , Netlify was my choice to store contact form data.
-<footer>
-Kapil Chaudhary
-</footer>
-</blockquote>
-</div>
-
-### <a name="mrhyde"> MrHyde </a>
-It is android app that I use to make suitable changes (commit) to my github repository. It lets me clone my github repository in internal storage of my phone and i can easily play with codes even without internet. I can push back changes to my github repository whenever connected to internet. and those changes are live instantly (few sec.)
-
-### <a name="erlen"> Erlen's Codepen </a>
-Major of source code is taken from <a href="https://www.erlen.co.uk/minimal-contact-form-with-expanding-textareas/" target="_blank"> Erlen's Codepen.</a><br />
-I have made most of changes in  <i><b>contact.js , contact.css</b> </i> and a few changes in<i><b> index.html</b> </i>file. Mostly changes are to make it compatible with <b><i>tufte css.</i></b>
-
-### <a name="tuftecss"> Tufte CSS</a>
-Tufte CSS is inspired from Edward Tufte’s books and handouts. It was created by Dave Liepmann .<br />This is github repository of _tufte css_
-<github.com/edwardtufte/tufte-css>
-<div>
-<blockquote>
-I like<b><i> tufte css</i> </b>and implemented it in many blog posts. The best thing of tufte css is it's compatibility with side notes and marginal notes.<br /> Typography is really cool and looks amazing with any mathematical equation. it's background is clean and eye friendly , moreover looks like content is written on any sheet of paper. <br />Another thing that i love about <b><i>tufte css</i></b> is that it is printer friendly and looks great in pdf or printed format.
-<footer>
-<p>Kapil Chaudhary</p>
-</footer>
-</blockquote>
-</div>
-
-<section class="bg-red">
-### <a name="customcss"> Custom CSS</a>
-
-you will be thinking that how background color of this section changed to red as previous section was having almost white background ? i've modified a part of <b><i>tufte css</i></b> to change its background color to light red . this section is using <b><i>custom css</i></b> via <code>section</code> tag and <code>class</code> as defined in starting of <b><i>custom css</i></b>.</section>
 
 ~~~html
+
+## This Form Uses :
+
+1.Github Repository
+2.Netlify
+3.MrHyde
+4.Erlen's Codepen
+5.Tufte CSS
+6.Custom CSS
+
+### Github Repository
+
+I'm using Github Repository for source code of this contact form.
+<github.com/sirkapil/contact>
+This is link to Github Repository , you can clone it or fork it ! Any suitable changes through pull requests are welcome.
+
+### Netlify
+
+I'm using netlify to host my form , it deploy instanly any commit made to github repository. the data you submit in contact form is saved to my netlify account and they inform me about any form submission through mail along with a copy of your message.
+
+> As Github Pages serves static sites and has limited features so you don't have inbuilt contact form option there. Therefore, you have to rely on third party for contact form submission , but most of them sell/exchange private information of users submitted through contact form , even  google form uses private information for advertising. that's why , Netlify was my choice to store contact form data.
+_- Kapil Chaudhary_
+{:.lead}
+
+### MrHyde 
+It is android app that I use to make suitable changes (commit) to my github repository. It lets me clone my github repository in internal storage of my phone and i can easily play with codes even without internet. I can push back changes to my github repository whenever connected to internet. and those changes are live instantly (few sec.)
+
+### Erlen's Codepen
+
+Major of source code is taken from  [Erlen's Codepen](https://www.erlen.co.uk/minimal-contact-form-with-expanding-textareas/).
+I have made most of changes in  _contact.js_ , _contact.css_ and a few changes in _index.html_ file. Mostly changes are to make it compatible with _tufte css._
+
+### Tufte CSS
+
+Tufte CSS is inspired from Edward Tufte’s books and handouts. It was created by Dave Liepmann. This is github repository of _tufte css_
+<github.com/edwardtufte/tufte-css>
+
+> I like _tufte css_ and implemented it in many blog posts. The best thing of tufte css is it's compatibility with side notes and marginal notes. Typography is really cool and looks amazing with any mathematical equation. it's background is clean and eye friendly , moreover looks like content is written on any sheet of paper. Another thing that i love about <b><i>tufte css</i></b> is that it is printer friendly and looks great in pdf or printed format.
+_— Kapil Chaudhary_
+{:.lead}
+
+### Custom CSS
+
+you will be thinking that how background color of contact form is changed from red to white. i've modified a part of _tufte css_ to change its background color to light red . it is using _custom css_ via `section` attribute and `class` tag as defined in starting of _custom css_.
+
+~~~html
+
 <section class="bg-red">
+
 ~~~
 
 #### Code
 
-I'm giving you code of <b><i>custom css</i></b>. you can change the background color via hsla or hex format. use any color picker tool and modify the <b><i>custom css</i></b> for any colourful background.
+I'm giving you code of _custom css_.  you can change the background color via hsla or hex format. use any color picker tool and modify the _custom css_ for any colourful background.
+
 ~~~css
+
 .bg-red {
   box-shadow: 0 0 200px 100px hsla(9, 100%, 95%, 1);
   background-color: hsla(9, 100%, 95%, 1);
@@ -144,8 +147,10 @@ body {
   transform-origin: bottom right;
   /* background-color: hsla(60, 100%, 97%, 1); /*/
 }
+
 ~~~
+
 ### Final Words 
-Whatever i've used in this contact form is freely available on internet for personal use. However , it is my <i>dharma</i> to give credit to such amazing persons without whom it couldn't be possible.
+Whatever i've used in this contact form is freely available on internet for personal use. However , it is my _dharma_ to give credit to such amazing persons without whom it couldn't be possible.
 
 You can also use any of above feature and modify accordingly.
