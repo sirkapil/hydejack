@@ -57,17 +57,17 @@ Can't find the form code ? No worries , here it is :
 
 ## This Form Uses :
 
-1.[Github Repository](#github+repository)
+1.[Github Repository](#github-repository)
 
 2.[Netlify](#netlify)
 
 3.[MrHyde](#mrhyde)
 
-4.[Erlen's Codepen](#erlen's+codepen)
+4.[Erlen's Codepen](#erlens-codepen)
 
-5.[Tufte CSS](#tufte+css)
+5.[Tufte CSS](#tufte-css)
 
-6.[Custom CSS](#custom+css)
+6.[Custom CSS](#custom-css)
 
 ### Github Repository
 
@@ -81,7 +81,7 @@ This is link to Github Repository , you can clone it or fork it ! Any suitable c
 
 I'm using netlify to host my form , it deploy instanly any commit made to github repository. the data you submit in contact form is saved to my netlify account and they inform me about any form submission through mail along with a copy of your message.
 
-> As Github Pages serves static sites and has limited features so you don't have inbuilt contact form option there. Therefore, you have to rely on third party for contact form submission , but most of them sell/exchange private information of users submitted through contact form , even  google form uses private information for advertising. that's why , Netlify was my choice to store contact form data.
+As Github Pages serves static sites and has limited features so you don't have inbuilt contact form option there. Therefore, you have to rely on third party for contact form submission , but most of them sell/exchange private information of users submitted through contact form , even  google form uses private information for advertising. that's why , Netlify was my choice to store contact form data.
 — **Kapil Chaudhary**,"21 Oct 2017"
 {:.message}{:.lead}
 
@@ -98,8 +98,7 @@ I have made most of changes in  _contact.js_ , _contact.css_ and a few changes i
 
 Tufte CSS is inspired from Edward Tufte’s books and handouts. It was created by Dave Liepmann. This is github repository of _tufte css_
 [github.com/edwardtufte/tufte-css](//github.com/edwardtufte/tufte-css)
-
-> I like _tufte css_ and implemented it in many blog posts. The best thing of tufte css is it's compatibility with side notes and marginal notes. Typography is really cool and looks amazing with any mathematical equation. it's background is clean and eye friendly , moreover looks like content is written on any sheet of paper. Another thing that i love about _tufte css_ is that it is printer friendly and looks great in pdf or printed format.
+I like _tufte css_ and implemented it in many blog posts. The best thing of tufte css is it's compatibility with side notes and marginal notes. Typography is really cool and looks amazing with any mathematical equation. it's background is clean and eye friendly , moreover looks like content is written on any sheet of paper. Another thing that i love about _tufte css_ is that it is printer friendly and looks great in pdf or printed format.
 — **Kapil Chaudhary**,"21 Oct 2017"
 {:.message}{:.lead}
 
