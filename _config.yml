@@ -207,8 +207,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-twitter:
-  username:            kapil_rc
+# twitter:
+  # username:            kapil_rc
 
 # Used for Facebook open graph
 # facebook:
