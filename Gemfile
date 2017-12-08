@@ -16,8 +16,8 @@ gem "jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-avatar"
-  # gem "jekyll-default-layout"
+  gem "jekyll-avatar"
+  gem "jekyll-default-layout"
   gem "jekyll-feed"
   # gem "jekyll-gist"
   # gem "jekyll-optional-front-matter"

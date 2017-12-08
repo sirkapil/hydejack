@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://hyd.netlify.com
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -15,26 +15,25 @@ url:                   https://domain.tld
 # When using GitHub Pages, set to '' when hosting a user- or organization page,
 # i.e. when the name of the repository looks like <username>.github.io.
 # Otherwise, set to /<name of repository> (with leading /, but without the < >).
-baseurl:               ''
+baseurl:               '/en'
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  en-in
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Kapil Chaudhary
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
+  Personal Blog of Kapil Chaudhary , a math scholar at University of Delhi.
   Combines the best of static sites and modern web apps.
   Open `_config.yml` to edit this text.
 
 # A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
-  Open `_config.yml` to edit this text.
+  Personal Blog of Kapil Chaudhary , A Math Scholar at University of Delhi. 
 
 # A list of keywords for your blog
 keywords:              []
@@ -45,10 +44,10 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Kapil Chaudhary
+  email:               kapil05021996@gmail.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             kapil_rc
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2017. All rights reserved.
@@ -58,7 +57,7 @@ permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
-paginate_path:         /page-:num/
+paginate_path:         /page/:num/
 
 
 # Customizaton
@@ -117,7 +116,7 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This *may* be benefitial when serving the site over HTTP/2.
-  no_inline_css:       false
+  no_inline_css:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -149,11 +148,11 @@ collections:
 
   featured_tags:
     permalink:         /tag/:name/
-    output:            true
+    output:            false
 
   projects:
     permalink:         /projects/:path/
-    output:            true
+    output:            false
 
 
 # File inclusion/exclusion
@@ -174,8 +173,8 @@ include:
 # ========================================================================================
 
 plugins:
-  # - jekyll-avatar
-  # - jekyll-default-layout
+  - jekyll-avatar
+  - jekyll-default-layout
   - jekyll-feed
   # - jekyll-gist
   # - jekyll-optional-front-matter
