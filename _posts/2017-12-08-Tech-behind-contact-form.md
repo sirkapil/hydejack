@@ -24,37 +24,36 @@ Can't find the form code ? No worries , here it is :
 
 ~~~html
 
-   &lt;form id="contactform" action="#" name="contactform" netlify>
-&lt;section class="bg-red">
-  &lt;h2>Dear Kapil,&lt;/h2>
-  &lt;p>My
-    &lt;label for="name">name&lt;/label> is
-    &lt;input type="text" name="name" id="name" minlength="3" required>&lt;/p>
-&lt;/section>
-  &lt;p>My
-    &lt;label for="email">email address&lt;/label> is
-    &lt;input type="email" name="email" id="email" required>
-  &lt;/p>&lt;br />
-  &lt;p>My
-    &lt;label for="number">mobile number&lt;/label> is
-    &lt;input type="tel" name="number" id="number" minlength="9" maxlength="14" required>
-  &lt;/p>&lt;br />
-  &lt;p> I have a
-    &lt;label for="your-message">message&lt;/label> for you,&lt;/p>
-
-  &lt;p>
-    &lt;textarea name="your-message" id="your-message" rows="4" maxlength="10000" class="expanding" required>&lt;/textarea>
-    &lt;/p>
-    &lt;button type="submit">
-      &lt;svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
-        &lt;path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+   <form id="contactform" action="#" name="contactform" netlify>
+<section class="bg-red">
+  <h2>Dear Kapil,</h2>
+  <p>My
+    <label for="name">name</label> is
+    <input type="text" name="name" id="name" minlength="3" required></p>
+</section>
+  <p>My
+    <label for="email">email address</label> is
+    <input type="email" name="email" id="email" required>
+  </p><br />
+  <p>My
+    <label for="number">mobile number</label> is
+    <input type="tel" name="number" id="number" minlength="9" maxlength="14" required>
+  </p><br />
+  <p> I have a
+    <label for="your-message">message</label> for you,</p>
+  <p>
+    <textarea name="your-message" id="your-message" rows="4" maxlength="10000" class="expanding" required></textarea>
+    </p>
+    <button type="submit">
+      <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+        <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
 	l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
-      &lt;/svg>
-      &lt;small>&lt;span style="color:#15B6B1">Launch&lt;/span>&lt;/small>
-    &lt;/button>
-   &lt;/form>
+      </svg>
+      <small><span style="color:#15B6B1">Launch</span></small>
+    </button>
+   </form>
 
-~~~html
+~~~
 
 ## This Form Uses :
 
