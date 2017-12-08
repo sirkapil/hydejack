@@ -48,6 +48,7 @@ author:
   email:               kapil05021996@gmail.com
   # Used by `jekyll-seo-tag`:
   twitter:             kapil_rc
+  github:              sirkapil
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2017. All rights reserved.
@@ -206,8 +207,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <shortname>
+twitter:
+  username:            kapil_rc
 
 # Used for Facebook open graph
 # facebook:
@@ -215,9 +216,8 @@ plugins:
 #   publisher:           <id>
 #   admins:              <id>
 
-# Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
+# Used on index and about sites social:
+   name:                Kapil Chaudhary
 #   links:
 #     - https://twitter.com/<username>
 #     - https://github.com/<username>
