@@ -20,7 +20,8 @@
       {% include tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %}
     </p>
     {% include message.html text=post.description hide=page.hide_description %}
-    {{ post.excerpt | strip_html }}
+{% unless include.excerpt %}
+    {{ post.excerpt }}
     </header>
 
     {% capture post_title %}<a class="heading flip-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endcapture %}
@@ -30,4 +31,5 @@
         {{ text | replace:"<!--post_title-->", post_title }}
       </p>
     </footer>
+{% endunless %}
 </article>
