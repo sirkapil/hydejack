@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://hyd.netlify.com
+url:                   https://blog.sirkapil.me
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -67,7 +67,7 @@ paginate_path:         /page/:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/sidebar.png
 accent_color:          '#FF6347'
 
 # The string encoding which fonts to fetch from Google Fonts.
@@ -122,7 +122,7 @@ hydejack:
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This *may* be benefitial when serving the site over HTTP/2.
-  no_inline_css:       true
+  no_inline_css:       false
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -137,11 +137,11 @@ hydejack:
   no_theme_color:      true
 
   # Set to `true` when building with the `--lsi` option
-  use_lsi:             false
+  use_lsi:             true
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      true
+  cookies_banner:      false
 
 
 # Collections
