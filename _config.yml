@@ -71,13 +71,13 @@ accent_color:          '#FF6347'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
-google_fonts:          Julee|Pacifico
+google_fonts:          Exo+2|Hammersmith+One
 
 # The text font. Expects a string that is a valid CSS font-family value.
-font:                  Julee, Arial, sans-serif
+font:                  'Hammersmith One', Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
-font_heading:          Pacifico, Arial, sans-serif
+font_heading:          'Exo 2', sans-serif
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
