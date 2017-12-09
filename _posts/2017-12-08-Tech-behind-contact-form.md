@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Tech Behind Contact Form
-excerpt_separator: <!--more-->
+description:  >
+Today , i'm going to tell you how i created this lovely [contact form](/contact). You can easily check it's source code through any online source code checker or by pressing CTRL+U (pc users). However, i mostly use w3 to inspect the source code.
 ---
 
 ## Table of Contents
@@ -14,7 +15,7 @@ excerpt_separator: <!--more-->
 ## Introduction
 
 Today , i'm going to tell you how i created this lovely [contact form](/contact). You can easily check it's source code through any online source code checker or by pressing CTRL+U (pc users). However, i mostly use w3 to inspect the source code.
-<!--more-->
+
 Online source code is here: 
 
 1.[w3.org](https://validator.w3.org/nu/?showsource=yes&showimagereport=yes&doc=https%3A%2F%2Fcontact.sirkapil.me%2F)
