@@ -24,12 +24,12 @@ Click on that paper plane button to proceed whenever you have filled all valid d
 
 ## Privacy
 
-We respect your privacy and never disclose your personal information to third party without your permission. "
-**Forms data hosted on**[Netlify Forms](//netlify.com/privacy)**
+We respect your privacy and never disclose your personal information to third party without your permission.
+**Forms data hosted on [Netlify Forms](//netlify.com/privacy)**
 {:.message}
 
 ## Security
 
-The contact form uses Let's encrypt SSL certificate and enforces <span style="color:green">https</span>. you can check green bar of your browser. It means your connection to contact form is encrypted. Moreover, it uses HSTS and HTTP2 that means form is available with encrypted connection only. Connection uses TLS 1.2 and encrypted using a modern cipher suite.
-**Connection encrypted by, AES 128 GCM**
+The contact form uses Let's encrypt SSL certificate and enforces <span style="color:green">https</span>. you can check green bar of your browser. It means your connection to contact form is encrypted. Moreover, it uses <span style="color:green">HSTS</span> and HTTP2 that means form is available with encrypted connection only. Connection uses TLS 1.2 and encrypted using a modern cipher suite.
+**Connection encrypted by , AES 128 GCM**
 {:.message}
