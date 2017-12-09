@@ -22,6 +22,7 @@
     {% include message.html text=post.description hide=page.hide_description %}
 {% unless include.excerpt %}
     {{ post.excerpt }}
+{% endunless %}
     </header>
 
     {% capture post_title %}<a class="heading flip-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endcapture %}
@@ -31,5 +32,4 @@
         {{ text | replace:"<!--post_title-->", post_title }}
       </p>
     </footer>
-{% endunless %}
 </article>
