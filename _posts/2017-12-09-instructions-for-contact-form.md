@@ -4,7 +4,7 @@ title: Instructions for Contact Form
 description: >
  This post provide instructions and help to use contact form.
 ---
-## Table Of Contents
+## Table of Contents
 {:.no_toc}
 - TOC
 {:toc}
@@ -19,19 +19,17 @@ All fields in contact form are required. As you fill a correct detail in contact
 
 
 Click on that paper plane button to proceed whenever you have filled all valid details. You will get a Google Captcha page to complete form , its just a verification to prevent spam and bot. Complete the captcha and you are done!
-{:.message}
 **[Kapil Chaudhary](/about)**
+{:.message}
 
 ## Privacy
 
 We respect your privacy and never disclose your personal information to third party without your permission. "
+**Forms data hosted on**[Netlify Forms](//netlify.com/privacy)**
 {:.message}
-**Forms data hosted on**
-**[Netlify Forms](//netlify.com/privacy)**
 
 ## Security
 
 The contact form uses Let's encrypt SSL certificate and enforces <span style="color:green">https</span>. you can check green bar of your browser. It means your connection to contact form is encrypted. Moreover, it uses HSTS and HTTP2 that means form is available with encrypted connection only. Connection uses TLS 1.2 and encrypted using a modern cipher suite.
+**Connection encrypted by, AES 128 GCM**
 {:.message}
-**Connection encrypted by,**
-**AES 128 GCM**
