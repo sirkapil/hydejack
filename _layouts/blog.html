@@ -30,5 +30,5 @@ layout: base
 include the `jekyll-paginate` plugin in your `Gemfile` and in your `_config.yml` under `plugins`.
 For more, see [Jekyll Pagination](https://jekyllrb.com/docs/pagination/).
   {% endcapture %}
-  {% include message.html text=text %}
+  {% include message.html text=post.description hide=page.hide_description %}
 {% endif %}
