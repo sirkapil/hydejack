@@ -4,7 +4,7 @@ title: Tech Behind Contact Form
 description: >
  Today , i'm going to tell you how i created this lovely [contact form](/contact).
 ---
-
+<!--more-->
 ## Table of Contents
 {:.no_toc}
 - TOC
