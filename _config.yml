@@ -22,7 +22,8 @@ baseurl:               ''
 lang:                  en-in
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Kapil Chaudhary
+title:                 Kapil
+ Chaudhary
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -114,7 +115,7 @@ hydejack:
   no_push_state:       false
 
   # Set to `true` if you want to disable the drawer
-  no_drawer:           false
+  no_drawer:           true
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This *may* be benefitial when serving the site over HTTP/2.

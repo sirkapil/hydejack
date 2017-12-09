@@ -1,12 +1,15 @@
 ---
 layout: post
 title: Tech Behind Contact Form
+content_separator: <!--more-->
 ---
 
 ## Table of Contents
 {:.no_toc}
 - TOC
 {:toc}
+
+<!--more-->
 
 ## Introduction
 
