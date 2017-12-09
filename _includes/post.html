@@ -20,6 +20,17 @@
       {% include tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %}
     </p>
     {% include message.html text=post.description hide=page.hide_description %}
+    </header>
+
+  {% unless include.excerpt %}
+
+    {{ post.content }}
+
+  {% else %}
+
+    {{ post.excerpt }}
+
+
     {% capture post_title %}<a class="heading flip-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endcapture %}
     {% assign text = site.data.strings.continue_reading | default:"Continue reading <!--post_title-->" %}
     <footer>
@@ -27,5 +38,5 @@
         {{ text | replace:"<!--post_title-->", post_title }}
       </p>
     </footer>
-   </header>
+  {% endunless %}
 </article>
