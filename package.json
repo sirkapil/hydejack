@@ -58,10 +58,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/qwtel/hydejack.git"
+    "url": "https://github.com/sirkapil/hydejack.git"
   },
   "bugs": {
-    "url": "https://github.com/qwtel/hydejack/issues"
+    "url": "https://github.com/sirkapil/hydejack/issues"
   },
-  "homepage": "https://github.com/qwtel/hydejack#readme"
+  "homepage": "https://github.com/sirkapil/hydejack#readme"
 }
