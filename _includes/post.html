@@ -21,7 +21,9 @@
     </p>
     {% include message.html text=post.description hide=page.hide_description %}
     </header>
-  {% unless include.excerpt %}
-    {{ post.content }}
-  {% endunless %}
+    <hr/> 
+{% unless include.excerpt %} {{ post.content }} 
+{% else %} {{ post.excerpt }} 
+<hr/> <p class="read-more">Continue reading <a class="heading" href="{{ post.url | relative_url }}" data-flip="title">{{ post.title }}</a></p> 
+{% endunless %}
 </article>
