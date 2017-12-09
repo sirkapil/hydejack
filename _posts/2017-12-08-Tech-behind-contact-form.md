@@ -2,7 +2,7 @@
 layout: post
 title: Tech Behind Contact Form
 description: >
-        Today , i'm going to tell you how i created this lovely [contact form](/contact). You can easily check it's source code through any online source code checker or by pressing CTRL+U (pc users). However, i mostly use w3 to inspect the source code.
+ Today , i'm going to tell you how i created this lovely [contact form](/contact).
 ---
 
 ## Table of Contents

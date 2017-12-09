@@ -80,6 +80,12 @@ font:                  Hammersmith One, Arial, sans-serif
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:          Molengo, Arial, sans-serif
 
+# Excerpt Seperator
+excerpt_separator:        <!--more-->
+
+# Permalink For posts
+permalink:          /:title/
+
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
