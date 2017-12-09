@@ -19,7 +19,7 @@ All fields in contact form are required. As you fill a correct detail in contact
 
 
 Click on that paper plane button to proceed whenever you have filled all valid details. You will get a Google Captcha page to complete form , its just a verification to prevent spam and bot. Complete the captcha and you are done!
-**                          —  [Kapil Chaudhary](/about)**
+**—[Kapil Chaudhary](/about)**
 {:.message}
 
 ## Privacy
