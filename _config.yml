@@ -253,14 +253,12 @@ kramdown:
     preview_as_code:   true
 
 compress_html:
-       clippings: all
-       comments: ["<!-- ", " -->"]
-       endings: all 
+       clippings:      all
+       comments:       ["<!-- ", " -->"]
+       endings:        all 
        ignore: 
-             envs: [local]
-       blanklines: false
-       profile: true
-       startings: [html, head, body]
+             envs:     [development]
+       startings:      [html, head, body]
 sass:
   style:               compressed
 
