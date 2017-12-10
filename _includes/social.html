@@ -6,6 +6,13 @@
       {% include social-list-item.html platform="twitter" username=twitter_username %}
     {% endif %}
   {% endunless %}
+ 
+     {% unless include.author.social.facebook %}
+    {% assign facebook_username = author.facebook.username | default: author.facebook | default:site.facebook.username | default:site.facebook | default:site.facebook_username %}
+    {% if facebook_username %}
+      {% include social-list-item.html platform="facebook" username=facebook_username %}
+    {% endif %}
+  {% endunless %}
 
   {% unless include.author.social.github %}
     {% assign github_username = author.github.username | default: author.github | default:site.github.username | default:site.github | default:site.github_username %}
