@@ -76,7 +76,7 @@ accent_color:          '#FF6347'
 google_fonts:          Molengo|Hammersmith+One
 
 # The text font. Expects a string that is a valid CSS font-family value.
-font:                  GillSans, Arial, sans-serif
+font:                  Hammersmith One, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:          Molengo, Arial, sans-serif
