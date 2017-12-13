@@ -172,8 +172,6 @@ exclude:
   - node_modules
   - package.json
   - package-lock.json
-include:
-  - LICENSE.md
 
 
 # Plugins and Plugin Configuration
