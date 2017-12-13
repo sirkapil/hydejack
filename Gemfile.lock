@@ -55,6 +55,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-avatar
   jekyll-feed
   jekyll-paginate
   jekyll-relative-links
