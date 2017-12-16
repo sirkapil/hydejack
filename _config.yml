@@ -73,10 +73,10 @@ accent_color:          '#FF6347'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
-google_fonts:          Molengo|Hammersmith+One
+google_fonts:          Molengo|Josefin+Sans
 
 # The text font. Expects a string that is a valid CSS font-family value.
-font:                  Hammersmith One, Arial, sans-serif
+font:                  Josefin Sans, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:          Molengo, Arial, sans-serif
